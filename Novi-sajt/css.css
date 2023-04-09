@@ -1,0 +1,170 @@
+/* Reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+  }
+  
+  header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  nav ul li {
+	margin-right: 20px;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  #hero {
+	background-image: url(slike/HD-wallpaper-lil-tecca-tyler-justin-anthony-sharpe-american-singer-american-rapper-portrait-hoot.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 100px 20px;
+  }
+  
+  #hero h1 {
+	font-size: 4rem;
+	margin-bottom: 20px;
+  }
+  
+  .album-container {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+  }
+  
+  .album-container img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	margin-right: 50px;
+  }
+  
+  .album-info h3 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+  }
+  
+  .article-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+  }
+  
+  .article {
+	width: 45%;
+  }
+  
+  .article img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-right: 20px;
+  }
+  
+  .article-info h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
+
+  /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* About Section Styles */
+#about {
+    margin: 50px;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#about .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#about .image-container img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}

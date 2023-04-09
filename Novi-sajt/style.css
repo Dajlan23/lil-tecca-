@@ -1,0 +1,192 @@
+/* General Styles */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  nav ul li {
+	margin-right: 20px;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	text-decoration: none;
+  }
+
+h2 {
+	color: #333;
+	text-align: center;
+	margin-top: 40px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+/* Navigation Styles */
+
+nav {
+	background-color: #333;
+	color: #fff;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 0 20px;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+}
+
+nav ul li a:hover {
+	background-color: #555;
+}
+
+/* Discography Styles */
+
+.album-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+}
+
+.album {
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	padding: 20px;
+	margin: 20px;
+	width: 300px;
+    height: auto;
+	text-align: center;
+    
+}
+
+.album img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 100%;
+    width: 300px;
+    height: auto;
+}
+
+.album h3 {
+	font-size: 24px;
+	margin: 0;
+	margin-bottom: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.album p {
+	margin: 0;
+	margin-bottom: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.album a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Style for navigation bar */
+nav {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style for videos section */
+  #videos {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #videos h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .video {
+    margin: 20px;
+  }
+  
+  .video h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .video p {
+    margin-top: 10px;
+    color: #999;
+  }
+  
+  .video iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  
